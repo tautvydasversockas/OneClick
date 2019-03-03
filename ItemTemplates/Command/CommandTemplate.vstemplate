@@ -1,0 +1,17 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+    <TemplateData>
+      <DefaultName>DoStuff.cs</DefaultName>
+      <Name>Command</Name>
+      <Description>Creates command and its handling infrstructure classes. 'Command' suffix will be attached to your provided name. In order to use this as intended download Serilog and FluentValidation nuget packages.</Description>
+      <ProjectType>CSharp</ProjectType>
+      <SortOrder>10</SortOrder>
+      <Icon>OneClick.ico</Icon>
+    </TemplateData>
+    <TemplateContent>
+      <References />
+      <ProjectItem TargetFileName="$fileinputname$\$fileinputname$Command.cs" ReplaceParameters="true">Command.cs</ProjectItem>
+      <ProjectItem TargetFileName="$fileinputname$\$fileinputname$CommandHandler.cs" ReplaceParameters="true">CommandHandler.cs</ProjectItem>
+      <ProjectItem TargetFileName="$fileinputname$\$fileinputname$CommandHandlerSettings.cs" ReplaceParameters="true">CommandHandlerSettings.cs</ProjectItem>
+      <ProjectItem TargetFileName="$fileinputname$\$fileinputname$CommandValidator.cs" ReplaceParameters="true">CommandValidator.cs</ProjectItem>
+    </TemplateContent>
+</VSTemplate>
