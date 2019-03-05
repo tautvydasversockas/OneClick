@@ -1,0 +1,16 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+    <TemplateData>
+      <DefaultName>MyMessage.cs</DefaultName>
+      <Name>Handler</Name>
+      <Description>Creates message handler and its infrastructure classes. 'Handler' suffix will be attached to your provided name. In order to use this as intended download Serilog and FluentValidation nuget packages.</Description>
+      <ProjectType>CSharp</ProjectType>
+      <SortOrder>10</SortOrder>
+      <Icon>OneClick.ico</Icon>
+    </TemplateData>
+    <TemplateContent>
+      <References />
+      <ProjectItem TargetFileName="$fileinputname$\$fileinputname$Handler.cs" ReplaceParameters="true">Handler.cs</ProjectItem>
+      <ProjectItem TargetFileName="$fileinputname$\$fileinputname$HandlerSettings.cs" ReplaceParameters="true">HandlerSettings.cs</ProjectItem>
+      <ProjectItem TargetFileName="$fileinputname$\$fileinputname$Validator.cs" ReplaceParameters="true">Validator.cs</ProjectItem>
+    </TemplateContent>
+</VSTemplate>

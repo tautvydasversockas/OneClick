@@ -2,7 +2,7 @@
     <TemplateData>
       <DefaultName>GetStuff.cs</DefaultName>
       <Name>Query</Name>
-      <Description>Creates query and its handling infrstructure classes. 'Query' suffix will be attached to your provided name. In order to use this as intended download Serilog and FluentValidation nuget packages.</Description>
+      <Description>Creates query and its handling infrastructure classes. 'Query' suffix will be attached to your provided name. In order to use this as intended download Serilog and FluentValidation nuget packages.</Description>
       <ProjectType>CSharp</ProjectType>
       <SortOrder>10</SortOrder>
       <Icon>OneClick.ico</Icon>

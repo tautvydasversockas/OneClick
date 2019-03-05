@@ -1,0 +1,20 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>DotNetStandardClassLibrary</Name>
+    <Description>Empty dotnetstandard 2.0 template</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>DotNetStandardClassLibrary</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>OnceClick.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="DotNetStandardClassLibrary.csproj" File="DotNetStandardClassLibrary.csproj" ReplaceParameters="true" />
+  </TemplateContent>
+</VSTemplate>

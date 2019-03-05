@@ -2,7 +2,7 @@
     <TemplateData>
       <DefaultName>DoStuff.cs</DefaultName>
       <Name>Request</Name>
-      <Description>Creates request and its handling infrstructure classes. 'Request' suffix will be attached to your provided name. In order to use this as intended download Serilog and FluentValidation nuget packages.</Description>
+      <Description>Creates request and its handling infrastructure classes. 'Request' suffix will be attached to your provided name. In order to use this as intended download Serilog and FluentValidation nuget packages.</Description>
       <ProjectType>CSharp</ProjectType>
       <SortOrder>10</SortOrder>
       <Icon>OneClick.ico</Icon>

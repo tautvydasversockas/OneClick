@@ -1,0 +1,20 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>DotNetFrameworkTest</Name>
+    <Description>Empty dotnetframework461 unit test application</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>DotNetFrameworkTest</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>OneClick.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="DotNetFrameworkTest.csproj" File="DotNetFrameworkTest.csproj" ReplaceParameters="true" />
+  </TemplateContent>
+</VSTemplate>
