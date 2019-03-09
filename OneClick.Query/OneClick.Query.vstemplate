@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>GetStuff.cs</DefaultName>
+    <Name>Query</Name>
+    <Description>Creates query and its handling infrastructure classes. 'Query' suffix will be attached to your provided name. In order to use this as intended download Serilog and FluentValidation nuget packages.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>OneClick.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem TargetFileName="$fileinputname$\$fileinputname$Query.cs" ReplaceParameters="true">Query.cs</ProjectItem>
+    <ProjectItem TargetFileName="$fileinputname$\$fileinputname$QueryHandler.cs" ReplaceParameters="true">QueryHandler.cs</ProjectItem>
+    <ProjectItem TargetFileName="$fileinputname$\$fileinputname$QueryHandlerSettings.cs" ReplaceParameters="true">QueryHandlerSettings.cs</ProjectItem>
+    <ProjectItem TargetFileName="$fileinputname$\$fileinputname$QueryValidator.cs" ReplaceParameters="true">QueryValidator.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

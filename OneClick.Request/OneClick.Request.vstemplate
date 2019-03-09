@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>DoStuff.cs</DefaultName>
+    <Name>Request</Name>
+    <Description>Creates request and its handling infrastructure classes. 'Request' suffix will be attached to your provided name. In order to use this as intended download Serilog and FluentValidation nuget packages.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>OneClick.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem TargetFileName="$fileinputname$\$fileinputname$Request.cs" ReplaceParameters="true">Request.cs</ProjectItem>
+    <ProjectItem TargetFileName="$fileinputname$\$fileinputname$RequestHandler.cs" ReplaceParameters="true">RequestHandler.cs</ProjectItem>
+    <ProjectItem TargetFileName="$fileinputname$\$fileinputname$RequestHandlerSettings.cs" ReplaceParameters="true">RequestHandlerSettings.cs</ProjectItem>
+    <ProjectItem TargetFileName="$fileinputname$\$fileinputname$RequestValidator.cs" ReplaceParameters="true">RequestValidator.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

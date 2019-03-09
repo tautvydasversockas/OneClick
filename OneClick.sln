@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneClick", "OneClick\OneClick.csproj", "{872E27C1-2291-4F97-8D2E-71340720D7B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneClick.Command", "OneClick.Command\OneClick.Command.csproj", "{E9F42E20-2F05-4E8F-8A4F-62F2C20B036D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneClick.Handler", "OneClick.Handler\OneClick.Handler.csproj", "{0505E0AC-C3CB-4C69-B150-B22A39992FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneClick", "OneClick\OneClick.csproj", "{13E4C4AB-3BDE-41F4-8B72-C54EB683B562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneClick.Query", "OneClick.Query\OneClick.Query.csproj", "{26F04D3B-455F-4BCA-AA30-AFC08E9D2321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneClick.Request", "OneClick.Request\OneClick.Request.csproj", "{5ED160A9-D4FF-4F1C-9FA9-755D9EECDB0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ItemTemplates", "ItemTemplates", "{DABA34BF-85F7-4A8F-BC07-4B187E630703}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +21,35 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{872E27C1-2291-4F97-8D2E-71340720D7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{872E27C1-2291-4F97-8D2E-71340720D7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{872E27C1-2291-4F97-8D2E-71340720D7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{872E27C1-2291-4F97-8D2E-71340720D7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F42E20-2F05-4E8F-8A4F-62F2C20B036D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F42E20-2F05-4E8F-8A4F-62F2C20B036D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F42E20-2F05-4E8F-8A4F-62F2C20B036D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F42E20-2F05-4E8F-8A4F-62F2C20B036D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0505E0AC-C3CB-4C69-B150-B22A39992FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0505E0AC-C3CB-4C69-B150-B22A39992FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0505E0AC-C3CB-4C69-B150-B22A39992FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0505E0AC-C3CB-4C69-B150-B22A39992FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E4C4AB-3BDE-41F4-8B72-C54EB683B562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E4C4AB-3BDE-41F4-8B72-C54EB683B562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E4C4AB-3BDE-41F4-8B72-C54EB683B562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E4C4AB-3BDE-41F4-8B72-C54EB683B562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F04D3B-455F-4BCA-AA30-AFC08E9D2321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F04D3B-455F-4BCA-AA30-AFC08E9D2321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F04D3B-455F-4BCA-AA30-AFC08E9D2321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F04D3B-455F-4BCA-AA30-AFC08E9D2321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED160A9-D4FF-4F1C-9FA9-755D9EECDB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED160A9-D4FF-4F1C-9FA9-755D9EECDB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED160A9-D4FF-4F1C-9FA9-755D9EECDB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED160A9-D4FF-4F1C-9FA9-755D9EECDB0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9F42E20-2F05-4E8F-8A4F-62F2C20B036D} = {DABA34BF-85F7-4A8F-BC07-4B187E630703}
+		{0505E0AC-C3CB-4C69-B150-B22A39992FC3} = {DABA34BF-85F7-4A8F-BC07-4B187E630703}
+		{26F04D3B-455F-4BCA-AA30-AFC08E9D2321} = {DABA34BF-85F7-4A8F-BC07-4B187E630703}
+		{5ED160A9-D4FF-4F1C-9FA9-755D9EECDB0C} = {DABA34BF-85F7-4A8F-BC07-4B187E630703}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {672FD9A4-3DB1-4A00-AFA4-4EA010CB6961}
